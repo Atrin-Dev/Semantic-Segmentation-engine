@@ -42,3 +42,17 @@ Install dependencies with:
 ```bash
 pip install -r requirements.txt
 ```
+### 🧠 Available Models
+
+You can choose between the following **architectures**:
+
+- `DeepLabV3+`
+- `UNet`
+
+**Backbones** can be any supported encoder from [Segmentation Models PyTorch (SMP)](https://github.com/qubvel/segmentation_models.pytorch), such as:
+
+- `resnet34`
+- `efficientnet-b4`
+- `mobilenet_v2`
+- *(and many more)*
+

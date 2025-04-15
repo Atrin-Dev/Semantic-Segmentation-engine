@@ -32,3 +32,13 @@ Semantic-Segmentation-engine/
 git clone https://github.com/Atrin-Dev/Semantic-Segmentation-engine.git
 cd Semantic-Segmentation-engine
 ```
+
+---
+
+## ⚙️ Requirements
+
+Install dependencies with:
+
+```bash
+pip install -r requirements.txt
+```

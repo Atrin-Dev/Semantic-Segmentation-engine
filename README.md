@@ -13,5 +13,13 @@ A modular and customizable semantic segmentation engine built with **PyTorch**, 
 
 ## 📁 Project Structure
 
-<pre><code>``` Semantic-Segmentation-engine/ ├── dataset/ # Custom Dataset class (e.g., for Cityscapes) ├── engine/ # Training, validation, and test loops ├── config/ # Configuration files (model, dataset, training) ├── utils/ # Utility functions (metrics, visualizations) ├── main.py # Entry point for training and evaluation ├── requirements.txt # Python dependencies └── README.md # This file ``` </code></pre>
+Semantic-Segmentation-engine/
+├── dataset/          # Custom Dataset class (e.g., for Cityscapes)
+├── engine/           # Training, validation, and test loops
+├── config/           # Configuration files (model, dataset, training)
+├── utils/            # Utility functions (metrics, visualizations)
+├── main.py           # Entry point for training and evaluation
+├── requirements.txt  # Python dependencies
+└── README.md         # This file
+
 

@@ -23,3 +23,12 @@ Semantic-Segmentation-engine/
 ├── requirements.txt  # Python dependencies
 └── README.md         # This file
 ```
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Atrin-Dev/Semantic-Segmentation-engine.git
+cd Semantic-Segmentation-engine
+```

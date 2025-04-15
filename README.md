@@ -71,3 +71,16 @@ python main.py --model unet --encoder resnet34 --weights imagenet --mode test
 ```bash
 python main.py --model deeplabv3plus --encoder resnet50 --weights imagenet --mode all
 ```
+## 🛠️ Configuration
+Edit global training settings such as batch size, epochs, and data paths in config.py.
+
+Example:
+
+```python
+DATA_PATH = "/path/to/cityscapes"
+BATCH_SIZE = 4
+MAX_EPOCHS = 60
+DEVICE = "cuda"  # or "cpu"
+NUM_CLASSES = 20
+```
+

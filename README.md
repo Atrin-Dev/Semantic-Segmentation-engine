@@ -56,3 +56,18 @@ You can choose between the following **architectures**:
 - `mobilenet_v2`
 - *(and many more)*
 
+.
+
+## 🚀 Usage
+### Train a model
+```bash
+python main.py --model deeplabv3plus --encoder efficientnet-b4 --weights imagenet --mode train
+```
+### Test a trained model
+```bash
+python main.py --model unet --encoder resnet34 --weights imagenet --mode test
+```
+### Train and test together
+```bash
+python main.py --model deeplabv3plus --encoder resnet50 --weights imagenet --mode all
+```
